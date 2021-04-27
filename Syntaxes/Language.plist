@@ -37,7 +37,7 @@
         <key>match</key>
         <string>(\b|\s)(integer|decimal|boolean|text|Cell|Row|Column)\b</string>
         <key>name</key>
-        <string>entity.name.type.seal</string>
+        <string>entity.name.function.seal</string>
       </dict>
 
       <dict>
