@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>fileTypes</key>
+    <array>
+      <string>seal</string>
+    </array>
+    
+    <key>name</key>
+    <string>SEAL</string>
+    <key>patterns</key>
+    <array>
+
+      <dict>
+        <key>match</key>
+        <string>(\b|\s)(for|return|if|else|event|with|while|function)\b</string>
+        <key>name</key>
+        <string>keyword.control.seal</string>
+      </dict>
+
+      <dict>
+        <key>match</key>
+        <string>(\\|\*|\+|-)</string>
+        <key>name</key>
+        <string>keyword.operator.seal</string>
+      </dict>
+
+      <dict>
+        <key>match</key>
+        <string>(\b|\s)(true|false|click)\b</string>
+        <key>name</key>
+        <string>constant.language.seal</string>
+      </dict>
+
+      <dict>
+        <key>match</key>
+        <string>(\b|\s)(integer|decimal|boolean|text|Cell|Row|Column)\b</string>
+        <key>name</key>
+        <string>entity.name.type.seal</string>
+      </dict>
+
+      <dict>
+        <key>match</key>
+        <string>(\b|\s)(empty)\b</string>
+        <key>name</key>
+        <string>variable.language.seal</string>
+      </dict>
+
+      <dict>
+        <key>match</key>
+        <string>(\b|\s)(cell|row|column|setValue|getValue|to|delete)\b</string>
+        <key>name</key>
+        <string>support.function.seal</string>
+      </dict>
+
+      <dict>
+        <key>match</key>
+        <string>\b(([0-9]+\.?[0-9]*))\b</string>
+        <key>name</key>
+        <string>constant.numeric.seal</string>
+      </dict>
+      
+      <dict>
+        <key>begin</key>
+        <string>"</string>
+        <key>end</key>
+        <string>"</string>
+        <key>patterns</key>
+        <array>
+          <key>name</key>
+          <string>constant.character.escape.seal</string>
+          <key>match</key>
+          <string>\\.</string>
+        </array>
+        <key>name</key>
+        <string>string.quoted.double.seal</string>
+      </dict>
+      
+      <dict>
+        <key>begin</key>
+        <string>'</string>
+        <key>end</key>
+        <string>'</string>
+        <key>patterns</key>
+        <array>
+          <key>name</key>
+          <string>constant.character.escape.seal</string>
+          <key>match</key>
+          <string>\\.</string>
+        </array>
+        <key>name</key>
+        <string>string.quoted.single.seal</string>
+      </dict>
+       
+    </array>
+    <key>scopeName</key>
+    <string>source.seal</string>
+    <key>uuid</key> 
+    <string>4AB615F2-5B96-483B-B381-D30AF1FF5875</string>
+  </dict>
+</plist>

@@ -1,0 +1,13 @@
+﻿; Registering the package
+[$RootKey$\InstalledProducts\SEALPackage]
+"Package"="{4cdde535-f14a-4f59-ba05-30d604c311dd}"
+[$RootKey$\BindingPaths\{4cdde535-f14a-4f59-ba05-30d604c311dd}]
+"$PackageFolder$"=""
+
+; Registering the TextMate grammar
+[$RootKey$\TextMate\Repositories]
+"SEAL"="$PackageFolder$\Syntaxes"
+
+; Match file extensions with icons. See full icon list at https://glyphlist.azurewebsites.net/knownmonikers/
+[$RootKey$\ShellFileAssociations\.pkgdef]
+"DefaultIconMoniker"="KnownMonikers.CSEventReceiver"
